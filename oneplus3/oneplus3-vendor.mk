@@ -408,7 +408,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:system/vendor/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so
 
 PRODUCT_PACKAGES += \
-    org.ifaa.android.manager \
     HotwordEnrollment \
     dashd
 
