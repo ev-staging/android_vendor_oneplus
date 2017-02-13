@@ -413,6 +413,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager \
+    HotwordEnrollment \
     dashd
 
 ifeq ($(QCPATH),)
