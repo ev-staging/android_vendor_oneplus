@@ -423,7 +423,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/bin/cnd:system/bin/cnd \
     vendor/oneplus/oneplus3/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/oneplus/oneplus3/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/oneplus/oneplus3/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/oneplus/oneplus3/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/oneplus/oneplus3/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/oneplus/oneplus3/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
