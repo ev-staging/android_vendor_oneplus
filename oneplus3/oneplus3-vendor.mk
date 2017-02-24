@@ -92,10 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/oneplus/oneplus3/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/oneplus/oneplus3/proprietary/lib64/libteeclientjni.so:system/lib64/libteeclientjni.so \
-    vendor/oneplus/oneplus3/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/oneplus/oneplus3/proprietary/lib/libFNVfbEngineHAL.so:system/lib/libFNVfbEngineHAL.so \
-    vendor/oneplus/oneplus3/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/oneplus/oneplus3/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oneplus/oneplus3/proprietary/lib/lib_oneplus_facebeauty.so:system/lib/lib_oneplus_facebeauty.so \
     vendor/oneplus/oneplus3/proprietary/lib/lib_oneplus_md.so:system/lib/lib_oneplus_md.so \
     vendor/oneplus/oneplus3/proprietary/lib/libop_calib3d.so:system/lib/libop_calib3d.so \
@@ -139,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/lib/libop_xobjdetect.so:system/lib/libop_xobjdetect.so \
     vendor/oneplus/oneplus3/proprietary/lib/libop_xphoto.so:system/lib/libop_xphoto.so \
     vendor/oneplus/oneplus3/proprietary/lib/libop_zlib.so:system/lib/libop_zlib.so \
-    vendor/oneplus/oneplus3/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/oneplus/oneplus3/proprietary/lib/libteeclientjni.so:system/lib/libteeclientjni.so \
     vendor/oneplus/oneplus3/proprietary/lib/qpd_dspcl_v2.bin:system/lib/qpd_dspcl_v2.bin \
     vendor/oneplus/oneplus3/proprietary/lib/TC_Bayer_Converter_v6_core_opt.bin:system/lib/TC_Bayer_Converter_v6_core_opt.bin \
