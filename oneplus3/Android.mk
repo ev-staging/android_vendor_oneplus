@@ -29,6 +29,29 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libprotobuf-cpp-fool
+LOCAL_MODULE_OWNER := oneplus
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libprotobuf-cpp-fool.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libprotobuf-cpp-fool.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libprotobuf-cpp-late
+LOCAL_MODULE_OWNER := oneplus
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libprotobuf-cpp-late.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libprotobuf-cpp-late.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
 
 ifeq ($(QCPATH),)
 
