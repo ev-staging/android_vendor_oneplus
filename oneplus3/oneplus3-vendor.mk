@@ -844,7 +844,6 @@ PRODUCT_PACKAGES += \
     fastdormancy \
     shutdownlistener \
     CNEService \
-    QtiTetherService \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
