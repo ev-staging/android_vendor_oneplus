@@ -125,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/lib/libopcamera_crypt.so:system/lib/libopcamera_crypt.so \
     vendor/oneplus/oneplus3/proprietary/lib/libopcamera_native_modules.so:system/lib/libopcamera_native_modules.so \
     vendor/oneplus/oneplus3/proprietary/lib/libopcameralib.so:system/lib/libopcameralib.so \
+    vendor/oneplus/oneplus3/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/oneplus/oneplus3/proprietary/lib/libteeclientjni.so:system/lib/libteeclientjni.so \
     vendor/oneplus/oneplus3/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/oneplus/oneplus3/proprietary/lib/qpd_dspcl_v2.bin:system/lib/qpd_dspcl_v2.bin \
@@ -165,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX298PdafLibrary.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libactuator_rohm_bu63165gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu63165gwl.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
@@ -346,6 +348,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmcamera_imx179.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx179.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmcamera_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx298.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmcamera_isp_abf47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf47.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
@@ -409,6 +412,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libois_rohm_bu63165gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_rohm_bu63165gwl.so \
