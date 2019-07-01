@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/oneplus/oneplus3/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
     vendor/oneplus/oneplus3/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
-    vendor/oneplus/oneplus3/proprietary/lib64/vendor.oneplus.fingerprint.extension@1.0.so:system/lib64/vendor.oneplus.fingerprint.extension@1.0.so \
     vendor/oneplus/oneplus3/proprietary/lib64/vendor.oneplus.hardware.ifaa@2.0.so:system/lib64/vendor.oneplus.hardware.ifaa@2.0.so \
     vendor/oneplus/oneplus3/proprietary/lib64/vendor.oneplus.hardware.param@1.0.so:system/lib64/vendor.oneplus.hardware.param@1.0.so \
     vendor/oneplus/oneplus3/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
