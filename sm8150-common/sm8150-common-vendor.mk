@@ -20,7 +20,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/oneplus/sm8150-common/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
-    vendor/oneplus/sm8150-common/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/oneplus/sm8150-common/proprietary/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.nfc.xml \
     vendor/oneplus/sm8150-common/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/oneplus/sm8150-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
@@ -384,38 +383,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/vl53l1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vl53l1.rc \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nci_beijingbus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_beijingbus.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nci_changancard.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_changancard.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nci_productline.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_productline.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nci_shenzhentong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_shenzhentong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nci_suzhoutong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_suzhoutong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nci_wuhantong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_wuhantong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nci_yangchengtong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_yangchengtong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nci_zhengzhoubus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_zhengzhoubus.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_beijingbus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_beijingbus.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_changancard.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_changancard.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_noeSE.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_productline.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_productline.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_productline_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_productline_noeSE.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_shenzhentong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_shenzhentong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_suzhoutong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_suzhoutong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_wuhantong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_wuhantong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_yangchengtong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_yangchengtong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_RF_zhengzhoubus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_zhengzhoubus.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_beijingbus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_beijingbus.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_changancard.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_changancard.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_noeSE.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_productline.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_productline.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_productline_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_productline_noeSE.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_shenzhentong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_shenzhentong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_suzhoutong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_suzhoutong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_wuhantong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_wuhantong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_yangchengtong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_yangchengtong.conf \
-    vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_zhengzhoubus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_zhengzhoubus.conf \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
