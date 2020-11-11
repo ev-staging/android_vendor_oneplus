@@ -1231,10 +1231,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    libplatformconfig \
     libsdm-disp-vndapis \
     libthermalclient \
-    vendor.qti.hardware.capabilityconfigstore@1.0 \
     libsdm-disp-apis.qti \
     SoterService \
     HotwordEnrollmentOKGoogleWCD9340 \
