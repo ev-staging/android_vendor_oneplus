@@ -914,7 +914,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    libbtconfigstore \
     libgpustats \
     libthermalclient \
     QtiTelephonyService \
