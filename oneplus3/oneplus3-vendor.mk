@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_UK-VoLTE.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_UK-VoLTE.mbn \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Vodafone-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Vodafone-Commercial.mbn \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/vendor/etc/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tfa98xx.cnt \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/tp/fw_synaptics_15801.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_15801.img \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/tp/fw_synaptics_15801b.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_15801b.img \
     vendor/oneplus/oneplus3/proprietary/vendor/firmware/tp/fw_synaptics_15811.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_15811.img \
